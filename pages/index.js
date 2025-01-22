@@ -1,5 +1,13 @@
+import style from './style.module.css'
+
 function Home() {
-    return <h1>Hello, batata! 😎</h1>
+    return (
+        <>
+        <div className={style.container}>
+            <h1 className={style.headline}>Hello, batata! 😎🍟</h1>
+        </div>
+        </>
+    )
 }
 
 export default Home;
